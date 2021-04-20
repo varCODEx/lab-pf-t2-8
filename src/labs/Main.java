@@ -31,7 +31,6 @@ public class Main {
         }
         System.out.println();
 
-        arrayList.sort(anonymousComparator);
         System.out.println("with anonymousComparator (reversed order)");
 
         TreeSet<Person> treeSet = new TreeSet<>(anonymousComparator);
